@@ -1,0 +1,51 @@
+#con-wallet{
+    background-color: var(--background);
+    filter: brightness(80%);
+    width: auto;
+    height: auto;
+    justify-self: center;
+    margin-top: 15vh;
+    border-radius: .5em;
+    border: 1px solid var(--primary);
+    transition-duration: .5s;
+}
+
+#con-wallet:hover{
+    border-color: brightness(80%); 
+}
+
+#con-wallet button{
+    margin: 2em;
+}
+
+#history-con{
+    height: 50vh;
+    overflow-y: scroll;
+}
+
+.info-contract-item{
+    background-color: var(--background);
+    filter: brightness(80%);
+    color: var(--foreground);
+    margin: 1em;
+    padding: .5em;
+    border-radius: .5em;
+}
+
+.info-contract-item h5{
+    text-wrap: wrap;
+    word-break: break-all;
+}
+
+#send-form{
+    margin-top: .5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .5em;
+}
+
+#send-form button{
+    width: 20%;
+    margin-bottom: 5vh;
+}
