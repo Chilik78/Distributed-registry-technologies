@@ -1,0 +1,10 @@
+#send-token-form{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+#send-token-form button{
+    width: 50%;
+}
