@@ -1,0 +1,45 @@
+:root {
+  --background: rgb(79, 78, 78);
+  --foreground: white;
+  --primary: rgb(0, 106, 255);
+  --hover: rgb(37, 35, 35);
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+@font-face {
+  font-family: "GeistVF";
+  src: url('../fonts/GeistVF.woff');
+}
+
+@font-face {
+  font-family: "GeistMonoVF";
+  src: url('../fonts/GeistMonoVF.woff');
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: "GeistVF", sans-serif;
+}
+
+button{
+  filter: none;
+  cursor: pointer;
+  background-color: var(--background);
+  border: 1px solid var(--foreground);
+  border-radius: .2em;
+  padding: .2em;
+  transition-duration: .5s;
+  color: var(--foreground);
+}
+
+button:hover{
+  background-color: var(--primary); 
+  box-shadow: .15em .3em 5px var(--hover);
+  border-color: var(--primary);
+}

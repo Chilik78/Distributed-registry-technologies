@@ -1,0 +1,16 @@
+#user-address, #header-history{
+    text-align: center;
+    margin-top: 5vh;
+}
+
+#header-history{
+    font-size: 1em;
+}
+
+#history-con{
+    margin-top: 5vh;
+    border: 1px solid var(--primary);
+    border-radius: .5em;
+    width: 70%;
+    justify-self: center;
+}
